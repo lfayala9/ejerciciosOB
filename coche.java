@@ -10,7 +10,7 @@ class Main {
       System.out.println(a + b + c);
     }
     static class Coche{
-      public int puertas = 0;
+      public int puertas = 2;
   
       public void agregarPuertas(){
         this.puertas++;
