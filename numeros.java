@@ -3,13 +3,13 @@ class Main {
         // Pimera parte del ejercicio
         int numeroif = 0;
 
-        if(numeroif >= 0){
-            System.out.println("El numero es positivo");   
+        if(numeroif > 0){
+            System.out.println("El numero"+numeroif+"es positivo");   
         }
-        else if(numeroif == 0){
-            System.out.println("El numero es cero");
+        else if(numeroif < 0){
+            System.out.println("El numero es"+numeroif+"cero");
         }else{
-            System.out.println("El numero es negativo");
+            System.out.println("El numero es cero");
         }
 
         // Segunda parte del ejercicio
@@ -17,13 +17,13 @@ class Main {
 
         while(numeroWhile < 3){
             numeroWhile++;
-            System.out.println(numeroWhile);
+            System.out.println("El valor del while es:"+numeroWhile);
         }
         int numerodoWhile = 0;
         do{
             numerodoWhile++;
-            System.out.println(numerodoWhile);
-        } while(numerodoWhile > 1);
+            System.out.println("El valor de numerodoWhile es:"+numerodoWhile);
+        } while(numerodoWhile < 0);
         
         //Tercera parte del ejercicio
 
@@ -31,7 +31,7 @@ class Main {
 
         for(int i = 0; i < 3; i++){
             numeroFor++;
-            System.out.println(numeroFor);
+            System.out.println("El valor del for es:"+numeroFor);
         }
         //Cuarta parte del ejercicio
         String estacion = "Nada";
