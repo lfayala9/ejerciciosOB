@@ -1,0 +1,9 @@
+.btn::before{
+    content: "Pasa por encima";
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
