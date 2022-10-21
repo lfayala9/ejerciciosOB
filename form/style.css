@@ -5,7 +5,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 body{
-    background-color: #161717;
+    background-color: black;
     color: white;
 }
 
@@ -18,6 +18,8 @@ body{
     gap: 30px;
     width: 450px;
     background-color: #161717;
+    border-radius: 10px;
+    padding: 10px 25px;
 }
 
 .buttons {
@@ -60,14 +62,28 @@ body{
     font-weight: 500;
     padding: 15px;
 }
-
+.twitter-btn picture{
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitter-btn picture img{
+    width: 75%;
+}
 .twitter-btn {
-    color: #bbb;
+    color: rgb(71, 71, 71);
     background-color: #eee;
     border: none;
-    width: 40px;
     border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
     cursor: pointer;
+    padding-right: 15px;
 }
 
 .twitter-btn:hover {
