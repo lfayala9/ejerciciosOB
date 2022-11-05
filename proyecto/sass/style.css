@@ -1,0 +1,409 @@
+.btn-main, .btn-main-s {
+  background-color: #0075FF;
+  color: white;
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  border: solid 1px #0075FF;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075FF;
+  border: solid 1px #0075FF;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.25rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #888;
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.25rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0px;
+}
+.main-menu li {
+  list-style: none;
+  display: inline;
+  font-size: 0.85rem;
+  margin-right: 1.25rem;
+}
+.main-menu li a {
+  color: black;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm {
+  border-radius: 50%;
+}
+.icon-sm i {
+  color: #0075FF;
+  font-size: 1.5rem;
+}
+
+.feature, .benefit {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon, .benefit .icon {
+  font-size: 10rem;
+  color: #0075FF;
+  text-align: center;
+}
+.feature .description .title, .benefit .description .title {
+  text-align: center;
+}
+.feature .description .text, .benefit .description .text {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta, .benefit .cta {
+  color: #0075FF;
+  margin-top: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.benefit .icon {
+  font-size: 6.5rem;
+  margin-bottom: 0.2rem;
+}
+.benefit .description p {
+  text-align: justify;
+}
+.benefit .cta {
+  align-self: flex-end;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  color: #0075FF;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: -2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px darkgrey;
+}
+
+.logo img {
+  max-width: 9rem;
+}
+
+.sec-home {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  align-items: center;
+  margin: auto;
+  max-width: 992px;
+}
+.sec-home .intro h3 {
+  font-weight: bold;
+}
+.sec-home .home-cta {
+  flex: 1;
+  align-self: flex-start;
+  margin-top: 3rem;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075FF;
+}
+.sec-home .home-cta .home-title {
+  width: 25rem;
+  font-size: 4rem;
+}
+.sec-home .home-cta .home-description {
+  width: 25rem;
+}
+
+.home-img img {
+  width: 25rem;
+}
+
+.sec-features, .sec-benefits .intro, .sec-onboarding .intro {
+  padding: 3rem;
+  align-items: center;
+  margin: auto;
+  max-width: 992px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-features .intro h3, .sec-benefits .intro .intro h3, .sec-onboarding .intro .intro h3 {
+  font-weight: bold;
+}
+.sec-features .intro, .sec-benefits .intro .intro, .sec-onboarding .intro .intro {
+  text-align: center;
+}
+.sec-features .intro h3, .sec-benefits .intro .intro h3, .sec-onboarding .intro .intro h3 {
+  font-size: 1.8rem;
+}
+.sec-features .intro p, .sec-benefits .intro .intro p, .sec-onboarding .intro .intro p {
+  font-size: 0.9rem;
+}
+.sec-features .features, .sec-benefits .intro .features, .sec-onboarding .intro .features {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.sec-features .features .text, .sec-benefits .intro .features .text, .sec-onboarding .intro .features .text {
+  padding: 2rem 0rem;
+  flex: 1;
+}
+.sec-features .features .text .feature, .sec-benefits .intro .features .text .feature, .sec-onboarding .intro .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sec-features .features .text .feature .description, .sec-benefits .intro .features .text .feature .description, .sec-onboarding .intro .features .text .feature .description {
+  margin-left: 1rem;
+  max-width: 18rem;
+}
+.sec-features .features .text .feature .description .-description-title, .sec-benefits .intro .features .text .feature .description .-description-title, .sec-onboarding .intro .features .text .feature .description .-description-title {
+  font-size: 1.25rem;
+}
+.sec-features .features .text .feature .description .text-description, .sec-benefits .intro .features .text .feature .description .text-description, .sec-onboarding .intro .features .text .feature .description .text-description {
+  font-size: 1rem;
+}
+.sec-features .features .image img, .sec-benefits .intro .features .image img, .sec-onboarding .intro .features .image img {
+  width: 11rem;
+}
+
+.sec-benefits, .sec-onboarding {
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+.sec-benefits .intro, .sec-onboarding .intro {
+  padding-bottom: 0;
+}
+.sec-benefits .intro h3, .sec-onboarding .intro h3 {
+  font-weight: bold;
+}
+.sec-benefits .benefit-cards, .sec-onboarding .benefit-cards {
+  padding: 4rem;
+  padding-top: 0;
+  width: 100%;
+}
+.sec-benefits .benefit-cards .benefit, .sec-onboarding .benefit-cards .benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+.sec-benefits .benefit-cards .benefit .description .title, .sec-onboarding .benefit-cards .benefit .description .title {
+  font-weight: bold;
+}
+.sec-benefits .benefit-cards .benefit .description p, .sec-onboarding .benefit-cards .benefit .description p {
+  text-align: justify;
+  padding: 0.5rem;
+}
+.sec-benefits .benefit-cards .cta, .sec-onboarding .benefit-cards .cta {
+  line-height: 28px;
+}
+
+.sec-kpi {
+  background-color: #0075FF;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-kpi .kpi {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  padding-bottom: 2rem;
+}
+.sec-kpi .kpi h3 {
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+.sec-kpi .kpi p {
+  color: #a9c2f8;
+}
+
+.sec-onboarding {
+  display: flex;
+  flex-direction: column;
+}
+.sec-onboarding .intro h3 {
+  font-size: 2.25rem;
+}
+.sec-onboarding .benefit .icon {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.sec-footer-cta {
+  width: 98%;
+  background-color: #F5F8FF;
+  display: flex;
+  margin-bottom: 8rem;
+}
+.sec-footer-cta .cta-banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5rem;
+}
+.sec-footer-cta .cta-banner h2 {
+  align-self: start;
+  font-weight: bold;
+}
+.sec-footer-cta .cta-banner p {
+  padding-right: 3rem;
+}
+.sec-footer-cta .cta-banner button {
+  align-self: start;
+}
+.sec-footer-cta .image-banner {
+  width: 100%;
+  padding-right: 0;
+}
+.sec-footer-cta .image-banner img {
+  width: 100%;
+}
+
+footer {
+  padding: 3rem;
+  align-items: center;
+  margin: auto;
+  max-width: 992px;
+  width: 98%;
+  margin-bottom: 4rem;
+  padding: 2rem 0 0 0;
+}
+footer .intro h3, footer .sec-benefits .intro h3, .sec-benefits footer .intro h3, footer .sec-onboarding .intro h3, .sec-onboarding footer .intro h3 {
+  font-weight: bold;
+}
+footer .footer-main {
+  color: #61788E;
+}
+footer .footer-main ul {
+  list-style: none;
+}
+footer .footer-main ul a {
+  text-decoration: none;
+  display: inline;
+  margin-right: 1.25rem;
+  color: #61788E;
+}
+footer .footer-main ul a:hover {
+  text-decoration: underline;
+}
+footer .footer-main img {
+  width: 10rem;
+}
+footer .footer-about {
+  gap: 3rem;
+  padding-right: 0;
+  margin-right: 0;
+}
+footer .footer-about .about-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+}
+footer .footer-about .about-cont h6 {
+  font-weight: bold;
+  align-self: start;
+}
+footer .footer-about .about-cont ul {
+  padding: 0;
+  align-self: start;
+}
+footer .footer-about .about-cont ul a {
+  text-decoration: none;
+  list-style: none;
+  color: #61788E;
+}
+footer .footer-about .about-cont ul a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  footer {
+    padding-left: 0.75rem;
+  }
+  .sec-footer-cta .cta-banner {
+    margin: 4rem;
+  }
+  .sec-benefits, .sec-onboarding {
+    border-top: 1px solid #ccc;
+    width: 100%;
+  }
+  .sec-benefits .intro, .sec-onboarding .intro {
+    padding-bottom: 0;
+  }
+  .sec-benefits .intro h3, .sec-onboarding .intro h3 {
+    font-weight: bold;
+  }
+  .sec-benefits .benefit-cards, .sec-onboarding .benefit-cards {
+    padding: 0rem;
+    padding-top: 0;
+    width: 100%;
+  }
+  .sec-benefits .benefit-cards .benefit, .sec-onboarding .benefit-cards .benefit {
+    margin: 0rem;
+  }
+  .sec-features, .sec-benefits .intro, .sec-onboarding .intro {
+    overflow: visible;
+  }
+  h2, h3, h4 {
+    overflow: visible;
+  }
+  .sec-home {
+    padding: 1rem;
+  }
+  .sec-footer-cta {
+    width: 100%;
+  }
+  .sec-kpi {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
