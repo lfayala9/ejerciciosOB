@@ -108,6 +108,14 @@
   margin-top: -2rem;
 }
 
+* {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  overflow: visible;
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -237,7 +245,7 @@
 .sec-kpi {
   background-color: #0075FF;
   color: white;
-  width: 100%;
+  max-width: 110%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -271,7 +279,7 @@
 }
 
 .sec-footer-cta {
-  width: 98%;
+  width: 100%;
   background-color: #F5F8FF;
   display: flex;
   margin-bottom: 8rem;
@@ -306,7 +314,7 @@ footer {
   align-items: center;
   margin: auto;
   max-width: 992px;
-  width: 98%;
+  width: 100%;
   margin-bottom: 4rem;
   padding: 2rem 0 0 0;
 }
@@ -315,6 +323,7 @@ footer .intro h3, footer .sec-benefits .intro h3, .sec-benefits footer .intro h3
 }
 footer .footer-main {
   color: #61788E;
+  margin-right: 15rem;
 }
 footer .footer-main ul {
   list-style: none;

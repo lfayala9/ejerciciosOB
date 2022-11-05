@@ -13,6 +13,14 @@
     }
 }
 
+*{
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    overflow: visible;
+}
+
 
 .nav{
     display: flex;
@@ -153,7 +161,7 @@
 .sec-kpi{
     background-color: components.$color-main;
     color: white;
-    width: 100%;
+    max-width: 110%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,7 +204,7 @@
 }
 
 .sec-footer-cta{
-    width: 98%;
+    width: 100%;
     background-color: #F5F8FF;
     display: flex;
     margin-bottom: 8rem;
@@ -231,12 +239,13 @@
 
 footer{
     @include section-display();
-    width: 98%;
+    width: 100%;
     margin-bottom: 4rem;
     padding: 2rem 0 0 0;
 
     .footer-main{
         color: #61788E;
+        margin-right: 15rem;
     
         ul{
             list-style: none;
